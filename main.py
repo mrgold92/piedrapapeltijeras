@@ -1,4 +1,6 @@
-# Juego del tres en raya
+# Juego de Piedra Papel o Tijeras
+# Autor: David Salazar Rodero
+# Github: https://github.com/mrgold92
 import random
 
 jugadas = ["Piedra", "Papel", "Tijeras"]
