@@ -10,13 +10,13 @@ def jugadaPc() -> int:
     return random.randint(0, len(jugadas) - 1)
 
 
-def menu():
+def menu() -> None:
     print("========================================")
     print('0 -> Piedra 1 -> Papel 2 -> Tijeras')
     print("========================================")
 
 
-def juego(jugada, jugadapc):
+def juego(jugada, jugadapc) -> int:
 
     if jugada == jugadapc:
         result = 3
